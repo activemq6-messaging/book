@@ -1,0 +1,24 @@
+== Working Outline
+
+== ActiveMQ6 Messaging
+
+. Introduction
+.. ActiveMQ6 History
+.. Messaging Concepts
+... Point to Point
+... Publish/Subscribe
+.. Multiple Protocols
+. ActiveMQ6 Deployments and Installation
+.. Standalone
+.. Fabric
+.. WildFly
+.. OpenShift
+. The Book Example
+. Clustering and High Availability
+.. Client Discovery
+... UDP
+... Static IP
+... Fabric
+... ZooKeeper
+.. Server Discovery
+.
