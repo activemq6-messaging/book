@@ -1,6 +1,9 @@
-== Working Outline
+
+= Working Outline
 
 == ActiveMQ6 Messaging
+
+=== Developing Multi Protocol Applications
 
 . Introduction
 .. ActiveMQ6 History
@@ -8,17 +11,49 @@
 ... Point to Point
 ... Publish/Subscribe
 .. Multiple Protocols
-. ActiveMQ6 Deployments and Installation
-.. Standalone
-.. Fabric
-.. WildFly
-.. OpenShift
-. The Book Example
-. Clustering and High Availability
-.. Client Discovery
-... UDP
-... Static IP
+// part 1 focuses on interoperability between different clients and protocols by the use of an example
+. Part 1 The Example
+.. ActiveMQ6 Deployments and Installation
+... Standalone
 ... Fabric
-... ZooKeeper
-.. Server Discovery
-.
+... WildFly
+... OpenShift
+.. The Book Example
+... Example description
+.. Configuration
+... Configuring a Standalone Server
+.... The Book Example Configuration
+... Configuring WildFly
+.... The Book Example Configuration
+... Configuring with fabric
+... Configuring with OpenShift
+.. Clients and Protocols
+... JMS
+... The Core Protocol
+.... Developing our Example Core Client
+... The OpenWire Protocol
+.... Developing our Example ActiveMQ5 Client
+... The AMQP Protocol
+.... Developing our Example AMQP Client
+... The MQTT Protocol
+... The Stomp Protocol
+// Part 2 is a problem and solution chapter to cover most other scenarios
+. Part 2 How do I...
+// Ive lumped all clustering and HA into its own section
+.. Clustering and High Availability
+... How do I load Balance messages
+// or setting up a cluster
+... How does a client find a server
+// or server discovery
+... How do I Load Balance Connections
+// or client side load balancing
+... How do I handle a Server Crash
+// or HA Failover
+.... Shared Store
+.... Replication
+.. How do I Secure my Server
+// or security
+.. How do I guarantee Complete Ordering
+// or message grouping
+.. How do I control Message Throughput
+// or flow control
