@@ -1,5 +1,3 @@
-= ActiveMQ6 Messaging
-
-== Developing Multi Protocol Applications
+= ActiveMQ6 and the Internet of Things
 
 include::Chapter01-Introduction.asciidoc[]

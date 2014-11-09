@@ -1,9 +1,7 @@
 
 = Working Outline
 
-== ActiveMQ6 Messaging
-
-=== Developing Multi Protocol Applications
+== ActiveMQ6 and the Internet of Things
 
 . Introduction
 .. ActiveMQ6 History
@@ -18,7 +16,7 @@
 ... Fabric
 ... WildFly
 ... OpenShift
-.. The Book Example
+.. The Automated House Example
 ... Example description
 .. Configuration
 ... Configuring a Standalone Server
